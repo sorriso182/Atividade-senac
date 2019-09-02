@@ -1,0 +1,16 @@
+public class Atividade1
+
+public static void main(String[] args) {
+
+        int cateto1 = 10;
+        int cateto2 = 20;
+
+        double hipotenusa = teoremadePitagos(cateto1, cateto2);
+
+    }
+
+    private static double teoremadePitagos(double cat1, double cat2) {
+        double resultado = Math.sqrt(cat1 * 2 + cat2 * 2);
+        return resultado;
+    }
+}
