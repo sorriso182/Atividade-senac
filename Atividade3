@@ -1,0 +1,19 @@
+public class Atividade3 {
+
+    public static void main(String[] args) {
+
+        String string1 = "o rato roue a roupa";
+        String string2 = "do rei de roma";
+
+        String texto = string1 + string2;
+        
+        String tex = vogais(texto);
+        System.out.print(tex);
+        
+    }
+            private static String vogais (String texto1){
+        String resultado = texto1.replace("a","1").replace("e", "2").replace("i", "3").replace("o", "4").replace("u", "5");
+        return resultado;
+        
+    }
+}
